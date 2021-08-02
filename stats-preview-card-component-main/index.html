@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
+    <!-- Favicon -->
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+
+    <!-- Font imports -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./styles/index.css" />
 
     <title>Frontend Mentor | Stats preview card component</title>
 
@@ -24,7 +33,6 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
-    <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
     <div class="root">
@@ -43,16 +51,16 @@
 
           <div class="stats">
             <div>
-              <p>10k+</p>
-              <p>companies</p>
+              <p class="stats-number">10k+</p>
+              <p class="stats-descriptor">companies</p>
             </div>
             <div>
-              <p>314</p>
-              <p>templates</p>
+              <p class="stats-number">314</p>
+              <p class="stats-descriptor">templates</p>
             </div>
             <div>
-              <p>12m+</p>
-              <p>queries</p>
+              <p class="stats-number">12m+</p>
+              <p class="stats-descriptor">queries</p>
             </div>
           </div>
         </div>
