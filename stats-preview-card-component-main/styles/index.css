@@ -1,18 +1,16 @@
 html {
-  width: 100%;
-  height: 100vh;
   background-color: hsl(233, 47%, 7%);
 }
 
 .root {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 100vh;
 }
 
 .card {
-  margin-top: 9%;
   width: 75%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -51,7 +49,7 @@ html {
   bottom: 0;
   left: 0;
   right: 0;
-  background: hsl(277, 64%, 61%, 0.5);
+  background: rgba(79, 18, 117, 0.6);
 }
 
 .image {
